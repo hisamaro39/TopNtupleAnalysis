@@ -1,0 +1,6 @@
+sample    0data         Data15_13TeV_25ns_FS_EXOT4_3_3fb                              "data"             "data"               1
+sample    1ttbar        MC15_13TeV_25ns_FS_EXOT4_ttbarPowhegPythia_all                "t#bar{t}"         "$t\bar{t}$"         0
+sample    4singletop    MC15_13TeV_25ns_FS_EXOT4_singletop                            "single top"       "single top"         62
+sample    3Wjets        MC15_13TeV_25ns_FS_EXOT4_Wjets                                "W+jets"           "$W$+jets"           92
+sample    5Zjets        MC15_13TeV_25ns_FS_EXOT4_Zjets                                "Z+jets"           "$Z$+jets"           95
+sample    6VV           MC15_13TeV_25ns_FS_EXOT4_VV                                   "diboson"          "diboson"            5

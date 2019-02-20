@@ -1,0 +1,7 @@
+sample    0data         Data15_13TeV_25ns_FS_EXOT4_3_3fb                              "data"             "data"               1
+sample    1ttbar        merged_ttbar                "t#bar{t}"         "$t\bar{t}$"         0
+sample    4singletop    MC15c_13TeV_25ns_FS_EXOT4_singletop                            "single top"       "single top"         62
+sample    3Wjets        MC15c_13TeV_25ns_FS_EXOT4_Wjets22                                "W+jets"           "$W$+jets"           92
+sample    5Zjets        MC15c_13TeV_25ns_FS_EXOT4_Zjets22                                "Z+jets"           "$Z$+jets"           95
+sample    6QCD          QCD_13TeV_25ns_FS_EXOT4_3_3fb                               "multi-jet"        "multi-jet"          9
+sample    7VV           MC15c_13TeV_25ns_FS_EXOT4_VV                                   "diboson"          "diboson"            5

@@ -1,0 +1,150 @@
+sample    zprime400    zprime400                            "Zprime400"           "Zprime400"          10
+sample    zprime500    zprime500                            "Zprime500"           "Zprime500"          10
+sample    zprime750    zprime750                            "Zprime750"           "Zprime750"          10
+sample    zprime1000   zprime1000                           "Zprime1000"          "Zprime1000"         10
+sample    zprime1250   zprime1250                           "Zprime1250"          "Zprime1250"         10
+sample    zprime1500   zprime1500                           "Zprime1500"          "Zprime1500"         10
+sample    zprime1750   zprime1750                           "Zprime1750"          "Zprime1750"         10
+sample    zprime2000   zprime2000                           "Zprime2000"          "Zprime2000"         10
+sample    zprime2250   zprime2250                           "Zprime2250"          "Zprime2250"         10
+sample    zprime2500   zprime2500                           "Zprime2500"          "Zprime2500"         10
+sample    zprime2750   zprime2750                           "Zprime2750"          "Zprime2750"         10
+sample    zprime3000   zprime3000                           "Zprime3000"          "Zprime3000"         10
+sample    zprime4000   zprime4000                           "Zprime4000"          "Zprime4000"         10
+sample    zprime5000   zprime5000                           "Zprime5000"          "Zprime5000"         10
+sample    kkgrav400    kkgrav400                            "KKgraviton400"       "KKgraviton400"      10
+sample    kkgrav500    kkgrav500                            "KKgraviton500"       "KKgraviton500"      10
+sample    kkgrav750    kkgrav750                            "KKgraviton750"       "KKgraviton750"      10
+sample    kkgrav1000   kkgrav1000                           "KKgraviton1000"      "KKgraviton1000"     10
+sample    kkgrav2000   kkgrav2000                           "KKgraviton2000"      "KKgraviton2000"     10
+sample    kkgrav3000   kkgrav3000                           "KKgraviton3000"      "KKgraviton3000"     10
+sample    eftl30c1     eftl30c1                             "EFTL30c1"            "EFTL30C1"           10
+sample    eftl35c1     eftl35c1                             "EFTL35c1"            "EFTL35C1"           10
+sample    eftl40c1     eftl40c1                             "EFTL40c1"            "EFTL40C1"           10
+sample    data         data                                 "data"                "data"               1
+sample    tt           ttall                                "t#bar{t}"            "$t\bar{t}$"         0
+sample    wbbjets      wbbjets                              "W+bb+jets"           "$W$+bb+jets"        416
+sample    wccjets      wccjets                              "W+cc+jets"           "$W$+cc+jets"        432
+sample    wcjets       wcjets                               "W+c+jets"            "$W$+c+jets"         632
+sample    wljets       wljets                               "W+l+jets"            "$W$+l+jets"         863
+sample    singletop    singletop                            "single top"          "single top"         62
+sample    zjets        zjets                                "Z+jets"              "$Z$+jets"           95
+sample    qcde         qcde                                 "QCD (e)"             "QCD (e)"            901
+sample    qcdmu        qcdmu                                "QCD (#mu)"           "QCD ($\mu$)"        902
+sample    vv           vv                                   "diboson"             "diboson"            5
+sample    ttv          ttv                                  "ttV"                 "$t\bar{t}V$"        7
+syst_flat lumi          "luminosity"                         "ttall,singletop,zjets,vv,ttv,zprime,kkgrav,eft"                 0.029                     -0.029
+syst      etrig      "electron trigger"               eTrigSF__1up                               eTrigSF__1down                                       N
+syst      erec       "electron reconstruction"        eRecoSF__1up                               eRecoSF__1down                                       N
+syst      eid        "electron ID"                    eIDSF__1up                                 eIDSF__1down                                         N
+syst      eiso       "electron isolation"             eIsolSF__1up                               eIsolSF__1down                                       N
+syst      mutrigstat "muon trigger (stat)"            muTrigStatSF__1up                          muTrigStatSF__1down                                  N
+syst      mutrigsyst "muon trigger (syst)"            muTrigSystSF__1up                          muTrigSystSF__1down                                  N
+syst      muidstat   "muon ID (stat)"                 muIDStatSF__1up                            muIDStatSF__1down                                    N
+syst      muidsyst   "muon ID (syst)"                 muIDSystSF__1up                            muIDSystSF__1down                                    N
+syst      muisolstat "muon isolation (stat)"          muIsolStatSF__1up                          muIsolStatSF__1down                                  N
+syst      muisolsyst "muon isolation (syst)"          muIsolSystSF__1up                          muIsolSystSF__1down                                  N
+syst      pileup     "pile up"                        pileupSF__1up                              pileupSF__1down                                      N
+syst      jvt        "JVT"                            jvtSF__1up                                 jvtSF__1down                                         N
+syst      ttewk      "tt electroweak corr."           ttEWK__1up                                 ttEWK__1down                                         N  qcd,singletop,zjets,vv,ttv,zprime,kkgrav,eft
+syst      wmodel     "W C/A SF"                       wnorm__1up                                 wnorm__1down                                         N  ttall,qcd,singletop,zjets,vv,ttv,zprime,kkgrav,eft
+syst      wbb        "W+bb fraction"                  wbb__1up                                   wbb__1down                                           N  ttall,qcd,singletop,zjets,vv,ttv,zprime,kkgrav,eft
+syst      wcc        "W+cc fraction"                  wcc__1up                                   wcc__1down                                           N  ttall,qcd,singletop,zjets,vv,ttv,zprime,kkgrav,eft
+syst      wc         "W+c fraction"                   wc__1up                                    wc__1down                                            N  ttall,qcd,singletop,zjets,vv,ttv,zprime,kkgrav,eft
+syst      wl         "W+l fraction"                   wl__1up                                    wl__1down                                            N  ttall,qcd,singletop,zjets,vv,ttv,zprime,kkgrav,eft
+syst      eres       "electron res."                  EG_RESOLUTION_ALL__1up                     EG_RESOLUTION_ALL__1down                             S
+syst      escale     "electron scale"                 EG_SCALE_ALL__1up                          EG_SCALE_ALL__1down                                  S
+syst      akt4jer    "anti-$k_t$ R=0.4 JER"           JET_JER_SINGLE_NP__1up                     -                                                    S
+syst      akt4jes1   "anti-$k_t$ R=0.4 JES NP 1"      JET_19NP_JET_EffectiveNP_1__1up            JET_19NP_JET_EffectiveNP_1__1down                    S
+syst      akt4jes2   "anti-$k_t$ R=0.4 JES NP 2"      JET_19NP_JET_EffectiveNP_2__1up            JET_19NP_JET_EffectiveNP_2__1down                    S
+syst      akt4jes3   "anti-$k_t$ R=0.4 JES NP 3"      JET_19NP_JET_EffectiveNP_3__1up            JET_19NP_JET_EffectiveNP_3__1down                    S
+syst      akt4jes4   "anti-$k_t$ R=0.4 JES NP 4"      JET_19NP_JET_EffectiveNP_4__1up            JET_19NP_JET_EffectiveNP_4__1down                    S
+syst      akt4jes5   "anti-$k_t$ R=0.4 JES NP 5"      JET_19NP_JET_EffectiveNP_5__1up            JET_19NP_JET_EffectiveNP_5__1down                    S
+syst      akt4jes6   "anti-$k_t$ R=0.4 JES NP 6"      JET_19NP_JET_EffectiveNP_6restTerm__1up    JET_19NP_JET_EffectiveNP_6restTerm__1down            S
+syst      akt4jespurho "anti-$k_t$ R=0.4 JES pile up rho topo." JET_19NP_JET_Pileup_RhoTopology__1up   JET_19NP_JET_Pileup_RhoTopology__1down         S
+syst      akt4jespuoffnpv "anti-$k_t$ R=0.4 JES pile up offset NPV" JET_19NP_JET_Pileup_OffsetNPV__1up  JET_19NP_JET_Pileup_OffsetNPV__1down          S
+syst      akt4jespuoffmu "anti-$k_t$ R=0.4 JES pile up offset mu" JET_19NP_JET_Pileup_OffsetMu__1up  JET_19NP_JET_Pileup_OffsetMu__1down              S
+syst      akt4jespupt "anti-$k_t$ R=0.4 JES pile up $p_T$ term" JET_19NP_JET_Pileup_PtTerm__1up  JET_19NP_JET_Pileup_PtTerm__1down                    S
+syst      akt4bjes   "anti-$k_t$ R=0.4 b-JES"         JET_19NP_JET_BJES_Response__1up            JET_19NP_JET_BJES_Response__1down                    S
+syst      akt4jesetastat "anti-$k_t$ R=0.4 eta int. stat." JET_19NP_JET_EtaIntercalibration_TotalStat__1up JET_19NP_JET_EtaIntercalibration_TotalStat__1down  S
+syst      akt4jesetanc "anti-$k_t$ R=0.4 eta int. non-closure" JET_19NP_JET_EtaIntercalibration_NonClosure__1up JET_19NP_JET_EtaIntercalibration_NonClosure__1down  S
+syst      akt4jesetamod "anti-$k_t$ R=0.4 eta model." JET_19NP_JET_EtaIntercalibration_Modelling__1up JET_19NP_JET_EtaIntercalibration_Modelling__1down  S
+syst      akt4jesfr  "anti-$k_t$ R=0.4 JES flavour resp." JET_19NP_JET_Flavor_Response__1up      JET_19NP_JET_Flavor_Response__1down                  S
+syst      akt4jesfc  "anti-$k_t$ R=0.4 JES flavour comp." JET_19NP_JET_Flavor_Composition__1up   JET_19NP_JET_Flavor_Composition__1down               S
+syst      akt4jespt  "anti-$k_t$ R=0.4 JES punchthrough" JET_19NP_JET_PunchThrough_MC15__1up     JET_19NP_JET_PunchThrough_MC15__1down                S
+syst      akt4jessp  "anti-$k_t$ R=0.4 JES single part." JET_19NP_JET_SingleParticle_HighPt__1up JET_19NP_JET_SingleParticle_HighPt__1down            S
+syst      metrespara "MET res. para."                 MET_SoftTrk_ResoPara                       -                                                    S
+syst      metresperp "MET res. perp."                 MET_SoftTrk_ResoPerp                       -                                                    S
+syst      metscale   "MET scale"                      MET_SoftTrk_ScaleUp                        MET_SoftTrk_ScaleDown                                S
+syst      muresms    "muon res. (MS)"                 MUONS_MS__1up                              MUONS_MS__1down                                      S
+syst      muresid    "muon res. (ID)"                 MUONS_ID__1up                              MUONS_ID__1down                                      S
+syst      muscale    "muon scale"                     MUONS_SCALE__1up                           MUONS_SCALE__1down                                   S
+syst      akt10model "anti-$k_t$ R=1.0 $r_{trk}$ modelling" LARGERJET_Strong_JET_Rtrk_Modelling_All__1up LARGERJET_Strong_JET_Rtrk_Modelling_All__1down    S
+syst      akt10baseline "anti-$k_t$ R=1.0 $r_{trk}$ baseline" LARGERJET_Strong_JET_Rtrk_Baseline_All__1up LARGERJET_Strong_JET_Rtrk_Baseline_All__1down    S
+syst      akt10track "anti-$k_t$ R=1.0 $r_{trk}$ tracking" LARGERJET_Strong_JET_Rtrk_Tracking_All__1up LARGERJET_Strong_JET_Rtrk_Tracking_All__1down    S
+syst      akt10stat "anti-$k_t$ R=1.0 $r_{trk}$ total stat." LARGERJET_Strong_JET_Rtrk_TotalStat_All__1up LARGERJET_Strong_JET_Rtrk_TotalStat_All__1down    S
+syst      btagb0     "b-tagging eff. (E0)"            btagbSF_0__1up                             btagbSF_0__1down                                     S
+syst      btagb1     "b-tagging eff. (E1)"            btagbSF_1__1up                             btagbSF_1__1down                                     S
+syst      btagb2     "b-tagging eff. (E2)"            btagbSF_2__1up                             btagbSF_2__1down                                     S
+syst      btagb3     "b-tagging eff. (E3)"            btagbSF_3__1up                             btagbSF_3__1down                                     S
+syst      btagc0pt1  "b-tagging c mistag (E0) low"    btagcSF_0_pt1__1up                         btagcSF_0_pt1__1down                                 S
+syst      btagc0pt2  "b-tagging c mistag (E0) med."   btagcSF_0_pt2__1up                         btagcSF_0_pt2__1down                                 S
+syst      btagc0pt3  "b-tagging c mistag (E0) high"   btagcSF_0_pt3__1up                         btagcSF_0_pt3__1down                                 S
+syst      btagc1     "b-tagging c mistag (E1)"        btagcSF_1__1up                             btagcSF_1__1down                                     S
+syst      btagc2     "b-tagging c mistag (E2)"        btagcSF_2__1up                             btagcSF_2__1down                                     S
+syst      btagc3     "b-tagging c mistag (E3)"        btagcSF_3__1up                             btagcSF_3__1down                                     S
+syst      btagl0pt1  "b-tagging l mistag (E0) low"    btaglSF_0_pt1__1up                         btaglSF_0_pt1__1down                                 S
+syst      btagl0pt2  "b-tagging l mistag (E0) med."   btaglSF_0_pt2__1up                         btaglSF_0_pt2__1down                                 S
+syst      btagl0pt3  "b-tagging l mistag (E0) high"   btaglSF_0_pt3__1up                         btaglSF_0_pt3__1down                                 S
+syst      btagl1     "b-tagging l mistag (E1)"        btaglSF_1__1up                             btaglSF_1__1down                                     S
+syst      btagl2     "b-tagging l mistag (E2)"        btaglSF_2__1up                             btaglSF_2__1down                                     S
+syst      btagl3     "b-tagging l mistag (E3)"        btaglSF_3__1up                             btaglSF_3__1down                                     S
+syst      btagl4     "b-tagging l mistag (E4)"        btaglSF_4__1up                             btaglSF_4__1down                                     S
+syst      btagl5     "b-tagging l mistag (E5)"        btaglSF_5__1up                             btaglSF_5__1down                                     S
+syst      btagl6     "b-tagging l mistag (E6)"        btaglSF_6__1up                             btaglSF_6__1down                                     S
+syst      btagl7     "b-tagging l mistag (E7)"        btaglSF_7__1up                             btaglSF_7__1down                                     S
+syst      btagl8     "b-tagging l mistag (E8)"        btaglSF_8__1up                             btaglSF_8__1down                                     S
+syst      btagl9     "b-tagging l mistag (E9)"        btaglSF_9__1up                             btaglSF_9__1down                                     S
+syst      btagl10    "b-tagging l mistag (E10)"       btaglSF_10__1up                            btaglSF_10__1down                                    S
+syst      btage1     "b-tagging extrap. (charm)"      btageSF_1__1up                             btageSF_1__1down                                     S
+syst      btage0     "b-tagging extrap."              btageSF_0__1up                             btageSF_0__1down                                     S
+syst      eftScale   "EFT scale"                      eftScale__1up                              eftScale__1down                                      N    ttall,wbbjets,wccjets,wcjets,wljets,singletop,zjets,vv,ttv,zprime,kkgrav,qcd
+syst_flat singletop  "single top cross sec."          "singletop"            0.053                                      -0.053
+syst_flat qcde       "QCD unc. (e)"                   "qcde"                 0.50                                       -0.050
+syst_flat qcdmu      "QCD unc. (mu)"                  "qcdmu"                0.50                                       -0.050
+syst_flat ttxsec     "ttbar cross section"            "ttall"                0.056                                      -0.061
+syst_model ttgen     "ttbar gen."                    "ttall"                 ttpowhegherwig                            ttmcatnloherwig               S
+syst_model ttps      "ttbar p. shower"               "ttall"                 ttsyst                                    ttpowhegherwig                S
+syst_model ttisrfsr  "ttbar ISR/FSR"                 "ttall"                 ttradlo                                   ttradhi                       S
+#syst_pdf   ttpdf     "ttbar PDF"                     "ttall"                ttpdf                                     pdf_PDF4LHC15_nlo_30          30
+syst_pdf_simple   ttpdf0    "PDF0"                   "ttall"                 ttpdf                                      pdf_PDF4LHC15_nlo_30           0
+syst_pdf_simple   ttpdf1    "PDF1"                   "ttall"                 ttpdf                                      pdf_PDF4LHC15_nlo_30           1
+syst_pdf_simple   ttpdf2    "PDF2"                   "ttall"                 ttpdf                                      pdf_PDF4LHC15_nlo_30           2
+syst_pdf_simple   ttpdf3    "PDF3"                   "ttall"                 ttpdf                                      pdf_PDF4LHC15_nlo_30           3
+syst_pdf_simple   ttpdf4    "PDF4"                   "ttall"                 ttpdf                                      pdf_PDF4LHC15_nlo_30           4
+syst_pdf_simple   ttpdf5    "PDF5"                   "ttall"                 ttpdf                                      pdf_PDF4LHC15_nlo_30           5
+syst_pdf_simple   ttpdf6    "PDF6"                   "ttall"                 ttpdf                                      pdf_PDF4LHC15_nlo_30           6
+syst_pdf_simple   ttpdf7    "PDF7"                   "ttall"                 ttpdf                                      pdf_PDF4LHC15_nlo_30           7
+syst_pdf_simple   ttpdf8    "PDF8"                   "ttall"                 ttpdf                                      pdf_PDF4LHC15_nlo_30           8
+syst_pdf_simple   ttpdf9    "PDF9"                   "ttall"                 ttpdf                                      pdf_PDF4LHC15_nlo_30           9
+syst_pdf_simple   ttpdf10   "PDF10"                  "ttall"                 ttpdf                                      pdf_PDF4LHC15_nlo_30           10
+syst_pdf_simple   ttpdf11   "PDF11"                  "ttall"                 ttpdf                                      pdf_PDF4LHC15_nlo_30           11
+syst_pdf_simple   ttpdf12   "PDF12"                  "ttall"                 ttpdf                                      pdf_PDF4LHC15_nlo_30           12
+syst_pdf_simple   ttpdf13   "PDF13"                  "ttall"                 ttpdf                                      pdf_PDF4LHC15_nlo_30           13
+syst_pdf_simple   ttpdf14   "PDF14"                  "ttall"                 ttpdf                                      pdf_PDF4LHC15_nlo_30           14
+syst_pdf_simple   ttpdf15   "PDF15"                  "ttall"                 ttpdf                                      pdf_PDF4LHC15_nlo_30           15
+syst_pdf_simple   ttpdf16   "PDF16"                  "ttall"                 ttpdf                                      pdf_PDF4LHC15_nlo_30           16
+syst_pdf_simple   ttpdf17   "PDF17"                  "ttall"                 ttpdf                                      pdf_PDF4LHC15_nlo_30           17
+syst_pdf_simple   ttpdf18   "PDF18"                  "ttall"                 ttpdf                                      pdf_PDF4LHC15_nlo_30           18
+syst_pdf_simple   ttpdf19   "PDF19"                  "ttall"                 ttpdf                                      pdf_PDF4LHC15_nlo_30           19
+syst_pdf_simple   ttpdf20   "PDF20"                  "ttall"                 ttpdf                                      pdf_PDF4LHC15_nlo_30           20
+syst_pdf_simple   ttpdf21   "PDF21"                  "ttall"                 ttpdf                                      pdf_PDF4LHC15_nlo_30           21
+syst_pdf_simple   ttpdf22   "PDF22"                  "ttall"                 ttpdf                                      pdf_PDF4LHC15_nlo_30           22
+syst_pdf_simple   ttpdf23   "PDF23"                  "ttall"                 ttpdf                                      pdf_PDF4LHC15_nlo_30           23
+syst_pdf_simple   ttpdf24   "PDF24"                  "ttall"                 ttpdf                                      pdf_PDF4LHC15_nlo_30           24
+syst_pdf_simple   ttpdf25   "PDF25"                  "ttall"                 ttpdf                                      pdf_PDF4LHC15_nlo_30           25
+syst_pdf_simple   ttpdf26   "PDF26"                  "ttall"                 ttpdf                                      pdf_PDF4LHC15_nlo_30           26
+syst_pdf_simple   ttpdf27   "PDF27"                  "ttall"                 ttpdf                                      pdf_PDF4LHC15_nlo_30           27
+syst_pdf_simple   ttpdf28   "PDF28"                  "ttall"                 ttpdf                                      pdf_PDF4LHC15_nlo_30           28
+syst_pdf_simple   ttpdf29   "PDF29"                  "ttall"                 ttpdf                                      pdf_PDF4LHC15_nlo_30           29
+syst_pdf_simple   ttpdf30   "PDF30"                  "ttall"                 ttpdf                                      pdf_PDF4LHC15_nlo_30           30

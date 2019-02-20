@@ -1,0 +1,59 @@
+sample    Zprime     MC15_13TeV_25ns_FS_EXOT4_Zprime3000                    "Signal"         "Signal"         0
+syst      akt10xcalib "anti-$k_t$ R=1.0 cross calibration" LARGERJET_JET_Top_CrossCalib__1up     LARGERJET_JET_Top_CrossCalib__1down                  S
+syst      akt10run1  "anti-$k_t$ R=1.0 run 1"         LARGERJET_JET_Top_Run1__1up                LARGERJET_JET_Top_Run1__1down                        S
+syst      akt4jer    "anti-$k_t$ R=0.4 JER"           JET_JER_SINGLE_NP__1up                     -                                                    S
+syst      akt4jes1   "anti-$k_t$ R=0.4 JES1"          JET_NPScenario1_JET_GroupedNP_1__1up       JET_NPScenario1_JET_GroupedNP_1__1down               S
+syst      akt4jes2   "anti-$k_t$ R=0.4 JES2"          JET_NPScenario1_JET_GroupedNP_2__1up       JET_NPScenario1_JET_GroupedNP_2__1down               S
+syst      akt4jes3   "anti-$k_t$ R=0.4 JES3"          JET_NPScenario1_JET_GroupedNP_3__1up       JET_NPScenario1_JET_GroupedNP_3__1down               S
+syst      muresms    "muon res. (MS)"                 MUONS_MS__1up                              MUONS_MS__1down                                      S
+syst      muresid    "muon res. (ID)"                 MUONS_ID__1up                              MUONS_ID__1down                                      S
+syst      muscale    "muon scale"                     MUONS_SCALE__1up                           MUONS_SCALE__1down                                   S
+syst      eres       "electron res."                  EG_RESOLUTION_ALL__1up                     EG_RESOLUTION_ALL__1down                             S
+syst      escale     "electron scale"                 EG_SCALE_ALL__1up                          EG_SCALE_ALL__1down                                  S
+syst      metrespara "MET res. para."                 MET_SoftTrk_ResoPara                       -                                                    S
+syst      metresperp "MET res. perp."                 MET_SoftTrk_ResoPerp                       -                                                    S
+syst      metscale   "MET scale"                      MET_SoftTrk_ScaleUp                        MET_SoftTrk_ScaleDown                                S
+syst      btagb0     "b-tagging eff. (E0)"            btagbSF_0__1up                             btagbSF_0__1down                                     N
+syst      btagb1     "b-tagging eff. (E1)"            btagbSF_1__1up                             btagbSF_1__1down                                     N
+syst      btagb2     "b-tagging eff. (E2)"            btagbSF_2__1up                             btagbSF_2__1down                                     N
+syst      btagb3     "b-tagging eff. (E3)"            btagbSF_3__1up                             btagbSF_3__1down                                     N
+syst      btagb4     "b-tagging eff. (E4)"            btagbSF_4__1up                             btagbSF_4__1down                                     N
+syst      btagb5     "b-tagging eff. (E5)"            btagbSF_5__1up                             btagbSF_5__1down                                     N
+syst      btagc0     "b-tagging c mistag (E0)"        btagcSF_0__1up                             btagcSF_0__1down                                     N
+syst      btagc1     "b-tagging c mistag (E1)"        btagcSF_1__1up                             btagcSF_1__1down                                     N
+syst      btagc2     "b-tagging c mistag (E2)"        btagcSF_2__1up                             btagcSF_2__1down                                     N
+syst      btagc3     "b-tagging c mistag (E3)"        btagcSF_3__1up                             btagcSF_3__1down                                     N
+syst      btagl0     "b-tagging l mistag (E0)"        btaglSF_0__1up                             btaglSF_0__1down                                     N
+syst      btagl1     "b-tagging l mistag (E1)"        btaglSF_1__1up                             btaglSF_1__1down                                     N
+syst      btagl2     "b-tagging l mistag (E2)"        btaglSF_2__1up                             btaglSF_2__1down                                     N
+syst      btagl3     "b-tagging l mistag (E3)"        btaglSF_3__1up                             btaglSF_3__1down                                     N
+syst      btagl4     "b-tagging l mistag (E4)"        btaglSF_4__1up                             btaglSF_4__1down                                     N
+syst      btagl5     "b-tagging l mistag (E5)"        btaglSF_5__1up                             btaglSF_5__1down                                     N
+syst      btagl6     "b-tagging l mistag (E6)"        btaglSF_6__1up                             btaglSF_6__1down                                     N
+syst      btagl7     "b-tagging l mistag (E7)"        btaglSF_7__1up                             btaglSF_7__1down                                     N
+syst      btagl8     "b-tagging l mistag (E8)"        btaglSF_8__1up                             btaglSF_8__1down                                     N
+syst      btagl9     "b-tagging l mistag (E9)"        btaglSF_9__1up                             btaglSF_9__1down                                     N
+syst      btagl10    "b-tagging l mistag (E10)"       btaglSF_10__1up                            btaglSF_10__1down                                    N
+syst      btagl11    "b-tagging l mistag (E11)"       btaglSF_11__1up                            btaglSF_11__1down                                    N
+syst      etrig      "electron trigger"               eTrigSF__1up                               eTrigSF__1down                                       N
+syst      erec       "electron reconstruction"        eRecoSF__1up                               eRecoSF__1down                                       N
+syst      eid        "electron ID"                    eIDSF__1up                                 eIDSF__1down                                         N
+syst      eiso       "electron isolation"             eIsolSF__1up                               eIsolSF__1down                                       N
+syst      mutrigstat "muon trigger (stat)"            muTrigStatSF__1up                          muTrigStatSF__1down                                  N
+syst      mutrigsyst "muon trigger (syst)"            muTrigSystSF__1up                          muTrigSystSF__1down                                  N
+syst      muidstat   "muon ID (stat)"                 muIDStatSF__1up                            muIDStatSF__1down                                    N
+syst      muidsyst   "muon ID (syst)"                 muIDSystSF__1up                            muIDSystSF__1down                                    N
+syst      muisolstat "muon isolation (stat)"          muIsolStatSF__1up                          muIsolStatSF__1down                                  N
+syst      muisolsyst "muon isolation (syst)"          muIsolSystSF__1up                          muIsolSystSF__1down                                  N
+syst      btage1     "b-tagging extrap. (charm)"      btageSF_1__1up                             btageSF_1__1down                                     N
+#syst      wmodel     "W C/A SF"                       boostedWSF__1up                            boostedWSF__1down                                    N
+#syst      ttewk      "tt electroweak corr."           ttEWK__1up                                 ttEWK__1down                                         N
+syst      btage0     "b-tagging extrap."              btageSF_0__1up                             btageSF_0__1down                                     N
+syst_flat singletop  "single top cross sec."          "singletop"            0.053                                      -0.053
+syst_flat lumi       "luminosity"                     ""                     0.05                                       -0.05
+syst_flat ttxsec     "ttbar cross section"            "ttbar"                0.056                                      -0.061
+syst_model ttgen     "ttbar gen."                    "ttbar"                MC15_13TeV_25ns_FS_EXOT4_ttbarPowhegHerwigAF2                MC15_13TeV_25ns_FS_EXOT4_ttbarMCAtNLOHerwigAF2  S
+syst_model ttps      "ttbar p. shower"               "ttbar"                MC15_13TeV_25ns_FS_EXOT4_ttbarPowhegPythiaAF2                MC15_13TeV_25ns_FS_EXOT4_ttbarPowhegHerwigAF2   S
+syst_model ttisrfsr  "ttbar ISR/FSR"                 "ttbar"                MC15_13TeV_25ns_FS_EXOT4_ttbarRadLo                          MC15_13TeV_25ns_FS_EXOT4_ttbarRadHi             S
+syst_pdf   ttpdf     "ttbar PDF"                     "ttbar"                MC15_13TeV_25ns_FS_EXOT4_ttbaraMcAtNlo_PDF                   pdf_PDF4LHC15_nlo_30           30
+#syst_pdf   sigpdf    "sig PDF"                       "Zprime"               MC15_13TeV_25ns_FS_EXOT4_Zprime3000_PDF                      PDF4LHC15_nlo_30           30

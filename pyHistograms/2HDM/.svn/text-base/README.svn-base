@@ -1,0 +1,41 @@
+To generate libs locally:
+  * get MadGraph with the 2HDM implementation and the run cards ready to be used from:
+    /afs/cern.ch/user/h/hod/public/MG5_aMC_v2.4.3_HEFTff.tar.gz
+  * put it wherever you like: /path/to/mg/
+  * tar -zxvf MG5_aMC_v2.4.3_HEFTff.tar.gz
+  * cd MG5_aMC_v2_4_3/
+  * make sure that models/HEFTff/restrict_default.dat has a weird suffix such that it is non-readable for MG
+  * you can run the processes just to get a feeling e.g. as:
+    ./bin/mg5_aMC run/proc.H.dat
+    ./bin/mg5_aMC run/proc.A.dat
+    ./bin/mg5_aMC run/proc.SM.dat
+
+To compile and use the output libraries locally:
+  * make sure to install numpy as discussed in local/README
+  * make sure to update the location of /path/to/mg/MG5_aMC_v2_4_3/ in T2HDM.py (mgpath)
+  * make sure to update the location of the output libraries in T2HDM.py (workpath)
+  * you can make the ibraries just to get a feeling e.g. for gg->H->tt:
+    cd MG5_aMC_v2_4_3/pp-H-ttjets/SubProcesses/P0_gg_ttx_no_h1/
+    make
+    make matrix2py.so
+  * to test the matrix code, see below
+
+setting up AnalysisTop:
+  * cd AnalysisTop...
+  * source setup.sh
+  * rcSetup
+
+setting up 2HDM:
+  * cd TopNtupleAnalysis/pyHistograms/2HDM/local/
+  * source setup.sh
+  * cd ../../
+
+makeing the libs:
+  * edit the __init__ function of t2HDM class in T2HDM.py  to tune the model parameters
+  * python makeMatrix.py
+
+if some libs give nonsense ME^2 values:
+  * libraries are in "workpath" as specified in T2HDM.py
+  * copy testMatrix.py to the relevant problematic directory
+  * edit testMatrix.py with the correct lib names and momenta setup (4 or 5 or 6)
+  * python testMatrix.py

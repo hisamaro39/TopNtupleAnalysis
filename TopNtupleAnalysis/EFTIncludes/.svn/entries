@@ -1,0 +1,401 @@
+10
+
+dir
+789172
+svn+ssh://svn.cern.ch/reps/atlasoff/PhysicsAnalysis/TopPhys/xAOD/TopNtupleAnalysis/tags/TopNtupleAnalysis-00-02-25/TopNtupleAnalysis/EFTIncludes
+svn+ssh://svn.cern.ch/reps/atlasoff
+
+
+
+2016-09-09T11:57:07.160172Z
+772405
+scalvet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4525493e-7705-40b1-a816-d608a930855b
+
+P2_Sigma_TopEffTh_gu_ttxu
+dir
+
+P2_Sigma_sm_gu_ttxu
+dir
+
+P3_Sigma_TopEffTh_uxcx_ttxuxcx
+dir
+
+P3_Sigma_sm_uux_ttxgg
+dir
+
+P3_Sigma_TopEffTh_gc_ttxgc
+dir
+
+P3_Sigma_sm_uu_ttxuu
+dir
+
+P3_Sigma_TopEffTh_gg_ttxgg
+dir
+
+P1_Sigma_TopEffTh_ssx_ttx
+dir
+
+P3_Sigma_TopEffTh_ssx_ttxssx
+dir
+
+P3_Sigma_TopEffTh_ddx_ttxssx
+dir
+
+P3_Sigma_TopEffTh_sdx_ttxsdx
+dir
+
+P3_Sigma_TopEffTh_dux_ttxscx
+dir
+
+P3_Sigma_TopEffTh_dsx_ttxucx
+dir
+
+P3_Sigma_TopEffTh_cux_ttxsdx
+dir
+
+P3_Sigma_TopEffTh_csx_ttxudx
+dir
+
+P1_Sigma_sm_uux_ttx
+dir
+
+P3_Sigma_TopEffTh_dux_ttxdux
+dir
+
+P3_Sigma_TopEffTh_uux_ttxddx
+dir
+
+P3_Sigma_TopEffTh_uux_ttxuux
+dir
+
+dosubs.sh
+file
+
+
+
+
+2016-12-12T02:13:22.128206Z
+d77fec9b914c0e85fae0b4880043eef9
+2016-08-23T12:55:59.895643Z
+769540
+dferreir
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+880
+
+P3_Sigma_TopEffTh_gg_ttxssx
+dir
+
+P3_Sigma_TopEffTh_cs_ttxcs
+dir
+
+P2_Sigma_TopEffTh_gc_ttxc
+dir
+
+P1_Sigma_sm_gg_ttx
+dir
+
+P3_Sigma_TopEffTh_sxsx_ttxsxsx
+dir
+
+P3_Sigma_TopEffTh_ds_ttxds
+dir
+
+P3_Sigma_TopEffTh_cxdx_ttxcxdx
+dir
+
+P3_Sigma_TopEffTh_cd_ttxus
+dir
+
+P3_Sigma_TopEffTh_uc_ttxuc
+dir
+
+P3_Sigma_TopEffTh_uxsx_ttxuxsx
+dir
+
+P3_Sigma_sm_gg_ttxuux
+dir
+
+P2_Sigma_TopEffTh_gg_ttxg
+dir
+
+P2_Sigma_sm_gg_ttxg
+dir
+
+P3_Sigma_TopEffTh_gs_ttxgs
+dir
+
+P3_Sigma_TopEffTh_uxux_ttxuxux
+dir
+
+P3_Sigma_TopEffTh_gu_ttxgu
+dir
+
+P3_Sigma_TopEffTh_dcx_ttxdcx
+dir
+
+P3_Sigma_TopEffTh_ccx_ttxddx
+dir
+
+P3_Sigma_TopEffTh_sdx_ttxcux
+dir
+
+P3_Sigma_TopEffTh_udx_ttxcsx
+dir
+
+P3_Sigma_TopEffTh_cux_ttxcux
+dir
+
+P3_Sigma_TopEffTh_ccx_ttxuux
+dir
+
+P3_Sigma_TopEffTh_ucx_ttxucx
+dir
+
+P3_Sigma_TopEffTh_uux_ttxccx
+dir
+
+P2_Sigma_TopEffTh_uux_ttxg
+dir
+
+P2_Sigma_sm_uux_ttxg
+dir
+
+P3_Sigma_TopEffTh_gux_ttxgux
+dir
+
+P2_Sigma_TopEffTh_gs_ttxs
+dir
+
+P3_Sigma_TopEffTh_ss_ttxss
+dir
+
+P3_Sigma_TopEffTh_dxsx_ttxdxsx
+dir
+
+P3_Sigma_TopEffTh_ddx_ttxgg
+dir
+
+P2_Sigma_TopEffTh_gd_ttxd
+dir
+
+P3_Sigma_TopEffTh_cd_ttxcd
+dir
+
+P3_Sigma_TopEffTh_dd_ttxdd
+dir
+
+P3_Sigma_TopEffTh_us_ttxus
+dir
+
+P3_Sigma_TopEffTh_uux_ttxgg
+dir
+
+P3_Sigma_sm_uxcx_ttxuxcx
+dir
+
+P3_Sigma_TopEffTh_uxdx_ttxuxdx
+dir
+
+P3_Sigma_TopEffTh_uu_ttxuu
+dir
+
+P3_Sigma_TopEffTh_gd_ttxgd
+dir
+
+P2_Sigma_TopEffTh_gcx_ttxcx
+dir
+
+P3_Sigma_TopEffTh_ccx_ttxccx
+dir
+
+P3_Sigma_sm_gg_ttxgg
+dir
+
+P3_Sigma_TopEffTh_dsx_ttxdsx
+dir
+
+P2_Sigma_TopEffTh_gdx_ttxdx
+dir
+
+P1_Sigma_TopEffTh_ddx_ttx
+dir
+
+P3_Sigma_TopEffTh_ssx_ttxddx
+dir
+
+P3_Sigma_TopEffTh_ddx_ttxddx
+dir
+
+P1_Sigma_TopEffTh_uux_ttx
+dir
+
+P3_Sigma_TopEffTh_ssx_ttxuux
+dir
+
+P3_Sigma_TopEffTh_sux_ttxsux
+dir
+
+P3_Sigma_TopEffTh_usx_ttxusx
+dir
+
+P3_Sigma_TopEffTh_uux_ttxssx
+dir
+
+P3_Sigma_TopEffTh_ddx_ttxuux
+dir
+
+P3_Sigma_TopEffTh_udx_ttxudx
+dir
+
+P3_Sigma_TopEffTh_gcx_ttxgcx
+dir
+
+P2_Sigma_TopEffTh_ccx_ttxg
+dir
+
+P3_Sigma_sm_uux_ttxuux
+dir
+
+P3_Sigma_TopEffTh_cxcx_ttxcxcx
+dir
+
+P1_Sigma_TopEffTh_gg_ttx
+dir
+
+P3_Sigma_TopEffTh_ccx_ttxgg
+dir
+
+P3_Sigma_TopEffTh_gg_ttxddx
+dir
+
+P3_Sigma_TopEffTh_cxdx_ttxuxsx
+dir
+
+P3_Sigma_TopEffTh_us_ttxcd
+dir
+
+P3_Sigma_TopEffTh_uxsx_ttxcxdx
+dir
+
+P3_Sigma_TopEffTh_dxdx_ttxdxdx
+dir
+
+P3_Sigma_TopEffTh_gg_ttxuux
+dir
+
+P3_Sigma_sm_uc_ttxuc
+dir
+
+P3_Sigma_TopEffTh_ud_ttxud
+dir
+
+P3_Sigma_sm_uxux_ttxuxux
+dir
+
+P3_Sigma_sm_gu_ttxgu
+dir
+
+P3_Sigma_TopEffTh_csx_ttxcsx
+dir
+
+P2_Sigma_TopEffTh_gsx_ttxsx
+dir
+
+P1_Sigma_TopEffTh_ccx_ttx
+dir
+
+P3_Sigma_TopEffTh_ccx_ttxssx
+dir
+
+P3_Sigma_TopEffTh_scx_ttxscx
+dir
+
+P3_Sigma_TopEffTh_ssx_ttxccx
+dir
+
+P3_Sigma_TopEffTh_ddx_ttxccx
+dir
+
+P3_Sigma_TopEffTh_cdx_ttxcdx
+dir
+
+P3_Sigma_TopEffTh_scx_ttxdux
+dir
+
+P3_Sigma_TopEffTh_ucx_ttxdsx
+dir
+
+P2_Sigma_TopEffTh_gux_ttxux
+dir
+
+P2_Sigma_sm_gux_ttxux
+dir
+
+P3_Sigma_sm_ucx_ttxucx
+dir
+
+P3_Sigma_sm_uux_ttxccx
+dir
+
+P2_Sigma_TopEffTh_ssx_ttxg
+dir
+
+P3_Sigma_TopEffTh_gsx_ttxgsx
+dir
+
+P3_Sigma_TopEffTh_gdx_ttxgdx
+dir
+
+P2_Sigma_TopEffTh_ddx_ttxg
+dir
+
+P3_Sigma_sm_gux_ttxgux
+dir
+
+P3_Sigma_TopEffTh_gg_ttxccx
+dir
+
+P3_Sigma_TopEffTh_cxsx_ttxcxsx
+dir
+
+P3_Sigma_TopEffTh_cc_ttxcc
+dir
+
+P3_Sigma_TopEffTh_ssx_ttxgg
+dir
+

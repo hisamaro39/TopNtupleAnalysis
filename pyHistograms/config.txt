@@ -1,0 +1,97 @@
+sample    0data         data                                 "data"                "data"               1
+sample    1tt           ttall                                "t#bar{t}"            "$t\bar{t}$"         0
+sample    2wbbjets      wbbjets                              "W+bb+jets"           "$W$+bb+jets"        416
+sample    3wccjets      wccjets                              "W+cc+jets"           "$W$+cc+jets"        432
+sample    4wcjets       wcjets                               "W+c+jets"            "$W$+c+jets"         632
+sample    5wljets       wljets                               "W+l+jets"            "$W$+l+jets"         863
+sample    6singletop    singletop                            "single top"          "single top"         62
+sample    7zjets        zjets                                "Z+jets"              "$Z$+jets"           95
+sample    8aqcde        qcde                                 "QCD (e)"             "QCD (e)"            901
+sample    8bqcdmu       qcdmu                                "QCD (#mu)"           "QCD ($\mu$)"        902
+sample    9vv           vv                                   "diboson"             "diboson"            5
+sample    91ttv         ttv                                  "ttV"                 "$t\bar{t}V$"        7
+syst_flat lumi          "luminosity"                         "ttall,singletop,zjets,vv,ttv"                 0.029                     -0.029
+syst      etrig      "electron trigger"               eTrigSF__1up                               eTrigSF__1down                                       N
+syst      erec       "electron reconstruction"        eRecoSF__1up                               eRecoSF__1down                                       N
+syst      eid        "electron ID"                    eIDSF__1up                                 eIDSF__1down                                         N
+syst      eiso       "electron isolation"             eIsolSF__1up                               eIsolSF__1down                                       N
+syst      mutrigstat "muon trigger (stat)"            muTrigStatSF__1up                          muTrigStatSF__1down                                  N
+syst      mutrigsyst "muon trigger (syst)"            muTrigSystSF__1up                          muTrigSystSF__1down                                  N
+syst      muidstat   "muon ID (stat)"                 muIDStatSF__1up                            muIDStatSF__1down                                    N
+syst      muidsyst   "muon ID (syst)"                 muIDSystSF__1up                            muIDSystSF__1down                                    N
+syst      muisolstat "muon isolation (stat)"          muIsolStatSF__1up                          muIsolStatSF__1down                                  N
+syst      muisolsyst "muon isolation (syst)"          muIsolSystSF__1up                          muIsolSystSF__1down                                  N
+#syst      pileup     "pile up"                        pileupSF__1up                              pileupSF__1down                                      S
+syst      jvt        "JVT"                            jvtSF__1up                                 jvtSF__1down                                         N
+syst      ttewk      "tt electroweak corr."           ttEWK__1up                                 ttEWK__1down                                         N
+syst      wmodel     "W C/A SF"                       wnorm__1up                                 wnorm__1down                                         N
+syst      wbb        "W+bb fraction"                  wbb__1up                                   wbb__1down                                           N
+syst      wcc        "W+cc fraction"                  wcc__1up                                   wcc__1down                                           N
+syst      wc         "W+c fraction"                   wc__1up                                    wc__1down                                            N
+syst      wl         "W+bb fraction"                  wl__1up                                    wl__1down                                            N
+syst      eres       "electron res."                  EG_RESOLUTION_ALL__1up                     EG_RESOLUTION_ALL__1down                             S
+syst      escale     "electron scale"                 EG_SCALE_ALL__1up                          EG_SCALE_ALL__1down                                  S
+syst      akt4jer    "anti-$k_t$ R=0.4 JER"           JET_JER_SINGLE_NP__1up                     -                                                    S
+syst      akt4jes1   "anti-$k_t$ R=0.4 JES NP 1"      JET_19NP_JET_EffectiveNP_1__1up            JET_19NP_JET_EffectiveNP_1__1down                    S
+syst      akt4jes2   "anti-$k_t$ R=0.4 JES NP 2"      JET_19NP_JET_EffectiveNP_2__1up            JET_19NP_JET_EffectiveNP_2__1down                    S
+syst      akt4jes3   "anti-$k_t$ R=0.4 JES NP 3"      JET_19NP_JET_EffectiveNP_3__1up            JET_19NP_JET_EffectiveNP_3__1down                    S
+syst      akt4jes4   "anti-$k_t$ R=0.4 JES NP 4"      JET_19NP_JET_EffectiveNP_4__1up            JET_19NP_JET_EffectiveNP_4__1down                    S
+syst      akt4jes5   "anti-$k_t$ R=0.4 JES NP 5"      JET_19NP_JET_EffectiveNP_5__1up            JET_19NP_JET_EffectiveNP_5__1down                    S
+syst      akt4jes6   "anti-$k_t$ R=0.4 JES NP 6"      JET_19NP_JET_EffectiveNP_6restTerm__1up    JET_19NP_JET_EffectiveNP_6restTerm__1down            S
+syst      akt4jespurho "anti-$k_t$ R=0.4 JES pile up rho topo." JET_19NP_JET_Pileup_RhoTopology__1up   JET_19NP_JET_Pileup_RhoTopology__1down         S
+syst      akt4jespuoffnpv "anti-$k_t$ R=0.4 JES pile up offset NPV" JET_19NP_JET_Pileup_OffsetNPV__1up  JET_19NP_JET_Pileup_OffsetNPV__1down          S
+syst      akt4jespuoffmu "anti-$k_t$ R=0.4 JES pile up offset mu" JET_19NP_JET_Pileup_OffsetMu__1up  JET_19NP_JET_Pileup_OffsetMu__1down              S
+syst      akt4jespupt "anti-$k_t$ R=0.4 JES pile up $p_T$ term" JET_19NP_JET_Pileup_PtTerm__1up  JET_19NP_JET_Pileup_PtTerm__1down                    S
+syst      akt4bjes   "anti-$k_t$ R=0.4 b-JES"         JET_19NP_JET_BJES_Response__1up            JET_19NP_JET_BJES_Response__1down                    S
+syst      akt4jesetastat "anti-$k_t$ R=0.4 eta int. stat." JET_19NP_JET_EtaIntercalibration_TotalStat__1up JET_19NP_JET_EtaIntercalibration_TotalStat__1down  S
+syst      akt4jesetanc "anti-$k_t$ R=0.4 eta int. non-closure" JET_19NP_JET_EtaIntercalibration_NonClosure__1up JET_19NP_JET_EtaIntercalibration_NonClosure__1down  S
+syst      akt4jesetamod "anti-$k_t$ R=0.4 eta model." JET_19NP_JET_EtaIntercalibration_Modelling__1up JET_19NP_JET_EtaIntercalibration_Modelling__1down  S
+syst      akt4jesfr  "anti-$k_t$ R=0.4 JES flavour resp." JET_19NP_JET_Flavor_Response__1up      JET_19NP_JET_Flavor_Response__1down                  S
+syst      akt4jesfc  "anti-$k_t$ R=0.4 JES flavour comp." JET_19NP_JET_Flavor_Composition__1up   JET_19NP_JET_Flavor_Composition__1down               S
+syst      akt4jespt  "anti-$k_t$ R=0.4 JES punchthrough" JET_19NP_JET_PunchThrough_MC15__1up     JET_19NP_JET_PunchThrough_MC15__1down                S
+syst      akt4jessp  "anti-$k_t$ R=0.4 JES single part." JET_19NP_JET_SingleParticle_HighPt__1up JET_19NP_JET_SingleParticle_HighPt__1down            S
+syst      metrespara "MET res. para."                 MET_SoftTrk_ResoPara                       -                                                    S
+syst      metresperp "MET res. perp."                 MET_SoftTrk_ResoPerp                       -                                                    S
+syst      metscale   "MET scale"                      MET_SoftTrk_ScaleUp                        MET_SoftTrk_ScaleDown                                S
+syst      muresms    "muon res. (MS)"                 MUONS_MS__1up                              MUONS_MS__1down                                      S
+syst      muresid    "muon res. (ID)"                 MUONS_ID__1up                              MUONS_ID__1down                                      S
+syst      muscale    "muon scale"                     MUONS_SCALE__1up                           MUONS_SCALE__1down                                   S
+syst      akt10model "anti-$k_t$ R=1.0 $r_{trk}$ modelling" LARGERJET_Strong_JET_Rtrk_Modelling_All__1up LARGERJET_Strong_JET_Rtrk_Modelling_All__1down    S
+syst      akt10baseline "anti-$k_t$ R=1.0 $r_{trk}$ baseline" LARGERJET_Strong_JET_Rtrk_Baseline_All__1up LARGERJET_Strong_JET_Rtrk_Baseline_All__1down    S
+syst      akt10track "anti-$k_t$ R=1.0 $r_{trk}$ tracking" LARGERJET_Strong_JET_Rtrk_Tracking_All__1up LARGERJET_Strong_JET_Rtrk_Tracking_All__1down    S
+syst      akt10stat "anti-$k_t$ R=1.0 $r_{trk}$ total stat." LARGERJET_Strong_JET_Rtrk_TotalStat_All__1up LARGERJET_Strong_JET_Rtrk_TotalStat_All__1down    S
+syst      btagb0     "b-tagging eff. (E0)"            btagbSF_0__1up                             btagbSF_0__1down                                     S
+syst      btagb1     "b-tagging eff. (E1)"            btagbSF_1__1up                             btagbSF_1__1down                                     S
+syst      btagb2     "b-tagging eff. (E2)"            btagbSF_2__1up                             btagbSF_2__1down                                     S
+syst      btagb3     "b-tagging eff. (E3)"            btagbSF_3__1up                             btagbSF_3__1down                                     S
+#syst      btagc0     "b-tagging c mistag (E0)"        btagcSF_0__1up                             btagcSF_0__1down                                     S
+syst      btagc0pt1  "b-tagging c mistag (E0) low"    btagcSF_0_pt1__1up                         btagcSF_0_pt1__1down                                 S
+syst      btagc0pt2  "b-tagging c mistag (E0) med."   btagcSF_0_pt2__1up                         btagcSF_0_pt2__1down                                 S
+syst      btagc0pt3  "b-tagging c mistag (E0) high"   btagcSF_0_pt3__1up                         btagcSF_0_pt3__1down                                 S
+syst      btagc1     "b-tagging c mistag (E1)"        btagcSF_1__1up                             btagcSF_1__1down                                     S
+syst      btagc2     "b-tagging c mistag (E2)"        btagcSF_2__1up                             btagcSF_2__1down                                     S
+syst      btagc3     "b-tagging c mistag (E3)"        btagcSF_3__1up                             btagcSF_3__1down                                     S
+#syst      btagl0     "b-tagging l mistag (E0)"        btaglSF_0__1up                             btaglSF_0__1down                                     S
+syst      btagl0pt1  "b-tagging l mistag (E0) low"    btaglSF_0_pt1__1up                         btaglSF_0_pt1__1down                                 S
+syst      btagl0pt2  "b-tagging l mistag (E0) med."   btaglSF_0_pt2__1up                         btaglSF_0_pt2__1down                                 S
+syst      btagl0pt3  "b-tagging l mistag (E0) high"   btaglSF_0_pt3__1up                         btaglSF_0_pt3__1down                                 S
+syst      btagl1     "b-tagging l mistag (E1)"        btaglSF_1__1up                             btaglSF_1__1down                                     S
+syst      btagl2     "b-tagging l mistag (E2)"        btaglSF_2__1up                             btaglSF_2__1down                                     S
+syst      btagl3     "b-tagging l mistag (E3)"        btaglSF_3__1up                             btaglSF_3__1down                                     S
+syst      btagl4     "b-tagging l mistag (E4)"        btaglSF_4__1up                             btaglSF_4__1down                                     S
+syst      btagl5     "b-tagging l mistag (E5)"        btaglSF_5__1up                             btaglSF_5__1down                                     S
+syst      btagl6     "b-tagging l mistag (E6)"        btaglSF_6__1up                             btaglSF_6__1down                                     S
+syst      btagl7     "b-tagging l mistag (E7)"        btaglSF_7__1up                             btaglSF_7__1down                                     S
+syst      btagl8     "b-tagging l mistag (E8)"        btaglSF_8__1up                             btaglSF_8__1down                                     S
+syst      btagl9     "b-tagging l mistag (E9)"        btaglSF_9__1up                             btaglSF_9__1down                                     S
+syst      btagl10    "b-tagging l mistag (E10)"       btaglSF_10__1up                            btaglSF_10__1down                                    S
+syst      btage1     "b-tagging extrap. (charm)"      btageSF_1__1up                             btageSF_1__1down                                     S
+syst      btage0     "b-tagging extrap."              btageSF_0__1up                             btageSF_0__1down                                     S
+syst_flat singletop  "single top cross sec."          "singletop"            0.053                                      -0.053
+syst_flat qcde       "QCD unc. (e)"                   "qcde"                 0.50                                       -0.050
+syst_flat qcdmu      "QCD unc. (mu)"                  "qcdmu"                0.50                                       -0.050
+syst_flat ttxsec     "ttbar cross section"            "ttall"                   0.056                                      -0.061
+syst_model ttgen     "ttbar gen."                    "ttall"                    ttpowhegherwig                            ttmcatnloherwig               S
+syst_model ttps      "ttbar p. shower"               "ttall"                    ttsyst                                    ttpowhegherwig                S
+syst_model ttisrfsr  "ttbar ISR/FSR"                 "ttall"                    ttradlo                                   ttradhi                       S
+syst_pdf   ttpdf     "ttbar PDF"                     "ttall"                    ttpdf                                     pdf_PDF4LHC15_nlo_30          30

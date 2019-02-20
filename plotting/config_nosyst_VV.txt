@@ -1,0 +1,1 @@
+sample    6VV           MC15c_13TeV_25ns_FS_EXOT4_VV                                   "diboson"          "diboson"            5

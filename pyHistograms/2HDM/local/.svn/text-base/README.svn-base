@@ -1,0 +1,28 @@
+the numpy package is mandatory for compiling MadGraph's python-wrapper ME^2 libs.
+the python version shipped with rootcore is insufficient for compiling this package.
+you need to get numpy and compile it with another, similar python version (see init.sh).
+after compilation, this other version is not needed anymore and we can work as usual.
+
+preparation (in this dir):
+  * source init.sh ## use one time only
+
+setuptools
+  * go to: https://pypi.python.org/pypi/setuptools
+  * wget the last version
+  * tar -zxv setuptools-XX.YY.ZZ.tar.gz
+  * cd setuptools-XX.YY.ZZ/
+  * python setup.py install --prefix=$PWD/../installed
+  * it will complain about '../local/installed/lib/python2.7/site-packages' not being inside PYTHONPATH, so add it as in: 
+    mkdir -p ../installed/lib/python2.7/site-packages
+    export PYTHONPATH=$PWD/../installed/lib/python2.7/site-packages:$PYTHONPATH
+    export PATH=$PWD/../installed/bin:$PATH
+  * cd .. [!!! IMPORTANT !!!]
+    
+install pip
+  * easy_insta!ll --prefix=$PWD/installed pip
+
+install numpy
+  * pip install numpy --prefix=$HOME/local/installed
+
+to use after installation
+  * source setup.sh
